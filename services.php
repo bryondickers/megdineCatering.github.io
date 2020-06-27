@@ -30,10 +30,12 @@
     <h1 class="container-fluid bg-info text-white text-center p-3 mb-0">Get your test from Megdine</h1>
     <div class="link">
 <ul id="nav" style="list-style: none;color: #ffffff"class="navbar list-group list-group-horizontal p-2 mt-0 mx-auto justify-content-center">
-    <li class="mr-3"><a href="homepage.html"><b>Home</b></a></li>
-    <li class="mr-3"><a href="services.html"><b>Services</b></a></li>
-    <li class="mr-3"><a href="about.html"><b>About Us</b></a></li>
-    <li class="mr-3"><a href="contuct.html"><b>Contact Us</b> </a></li>
+
+    <li class="mr-3 nav-item active  "><a href="homepage.php"><b>Home</b></a></li>
+    <li class="mr-3 nav-item "><a href="services.php"><b>Services</b></a></li>
+    <li class="mr-3 nav-item"><a href="about.php"><b>About Us</b></a></li>
+    <li class="mr-3 nav-item"><a href="contuct.html"><b>Contact Us</b> </a></li>
+</ul>
     </div>
 
 </div>
@@ -57,6 +59,8 @@
         <li>Chama Gatherings</li>
         <li>House Paties</li>
     </ul>
+      <?php include "footer.php"?>
+  </div>
   </div>
 </body>
 <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
