@@ -7,7 +7,7 @@
 </head>
 <style>
     #nav{
-        background-color: #ededed;
+        background-color: #000000;
     }
     p, li{
         position: relative;
@@ -20,7 +20,13 @@
     .divtwo{
         height: 400px;
     }
-
+    ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    a:hover{
+        background-color: white;
+    }
 
 
 </style>
@@ -28,11 +34,11 @@
 <div class="bg-info">
     <h1 class=" container-fluid bg-info text-white text-center p-3 mb-0">Get your test from Megdine</h1>
     <div class="link">
-    <ul id="nav" style="list-style: none;color: #ffffff"class="navbar list-group list-group-horizontal p-2 mt-0 mx-auto justify-content-center">
+    <ul id="nav" style="list-style: none;color: #ffffff"class="navbar nav-pills list-group list-group-horizontal p-2 mt-0 mx-auto justify-content-center">
         <li class="mr-3 nav-item active"><a href="homepage.php"><b>Home</b></a></li>
         <li class="mr-3 nav-item"><a href="services.php"><b>Services</b></a></li>
-        <li class="mr-3 nav-item"><a href="about.php"><b>About Us</b></a></li>
-        <li class="mr-3 nav-item"><a href="contuct.html"><b>Contact Us</b> </a></li>
+        <li class="mr-3 nav-item"><a class="nav-link active" href="about.php"><b>About Us</b></a></li>
+        <li class="mr-3 nav-item"><a href="contuct.php"><b>Contact Us</b> </a></li>
     </ul>
 </div>
     <div class="colum container bg-info w-auto h-auto row col ml-auto mr-auto">

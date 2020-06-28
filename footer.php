@@ -29,7 +29,7 @@
 </style>
 <body>
 
-<div class="container bg-success p-2 " >
+<div class="foot container bg-success p-2 " >
     <footer class="fot text-white"><ul class="list-unstyled">
                 <p>
                        <p> <a class="pb-0 text-white" href="https://instagram.com/megdinecatering?igshid=1xiix68rb7bvq">
