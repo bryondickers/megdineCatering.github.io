@@ -55,7 +55,7 @@
     <h1 class="container-fluid bg-info text-white text-center p-3 mb-0"style="font-size:5vmax;"><b><i>Get your test from Megdine</i></b></h1>
     <div class="link table-danger">
         <ul id="nav" style="list-style: none;color: #ffffff"class="dev text-white navbar nav-pills list-group list-group-horizontal p-2 mt-0 mx-auto justify-content-center">
-            <li class="mr-3 nav-item active"><a class="nav-link active" href="homepage.php"><b>Home</b></a></li>
+            <li class="mr-3 nav-item active"><a class="nav-link active" href="index.php"><b>Home</b></a></li>
             <li class="mr-3 nav-item"><a href="services.php" ><b>Services</b></a></li>
             <li class="mr-3 nav-item"><a href="about.php"><b>About Us</b></a></li>
             <li class="mr-3 nav-item"><a href="contuct.php"><b>Contact Us</b> </a></li>
