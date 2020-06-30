@@ -24,16 +24,19 @@
         font-size: 7pt;
     }
     .pi{
-        font-size: 8pt;
+        font-size: 3vmin;
+    }
+   p.text-white a:hover{
+        background-color: #06aa06;
     }
 </style>
-<body>
+<body style="font-size: 2vmax;">
 
 <div class="foot container bg-success p-2 " >
     <footer class="fot text-white"><ul class="list-unstyled">
                 <p>
                        <p> <a class="pb-0 text-white" href="https://instagram.com/megdinecatering?igshid=1xiix68rb7bvq">
-                               <li class="pt-0"><i class="pi fab fa-instagram-square fb"> @megdinecatering</i></li></a><p class="pi"><i>contact: +254713931075</i></p>
+                               <li class="pt-0"><i class="pi fab fa-instagram-square fb bg-success"><u> @megdinecatering</u></i></li></a><p class="pi"><i>contact: +254713931075</i></p>
             <li class="pt-0"></p></li>
             <li> <p class="last text-right font-italic">Designed by:Bryo Ndickers <br>Contact: +254768665354</p>
                 <p class="pi text-center pb-0 mb-0"><i>&copy;copyright 20<?php echo date("y") ;?> megdine catering</i></p>

@@ -8,12 +8,15 @@
 
 </head>
 <style>
+
     #nav{
         background-color: #000000;
     }
     img{
         height:200px;
-        width: 680px;
+        margin-right: 5%;
+        margin-left: 5%;
+
     }
     #lft{
         margin-top: 0px;
@@ -28,14 +31,14 @@
         color: white;
         text-decoration: none;
     }
-    a:hover{
+    ul li a:hover{
         background-color: white;
     }
 
 </style>
-<body class="bg-info">
+<body class="bg-info" style="font-size:2vmax;">
 <div>
-    <h1 class="container-fluid bg-info text-white text-center p-3 mb-0">Get your test from Megdine</h1>
+    <h1 class="container-fluid bg-info text-white text-center p-3 mb-0"style="font-size: 5vmax;"><b><i>Get your test from Megdine</i></b></h1>
     <div class="link">
 <ul id="nav" style="list-style: none;color: #ffffff"class="navbar nav-pills list-group list-group-horizontal p-2 mt-0 mx-auto justify-content-center">
 
@@ -48,8 +51,8 @@
 
 </div>
 <div class="container bg-dark text-white">
-    <img class="mx-auto d-block" src="images/services.jpg" alt="">
-    <h2 id="he" class="container-fluid bg-success pt-2 pb-2 text-center mb-0 text-light"><b>Exquisite Catering Services</b></h2>
+    <img class="mx-auto d-block container-fluid" src="images/services.jpg" alt="">
+    <h2 id="he" class="container-fluid bg-success pt-2 pb-2 text-center mb-0 text-light"style="font-size: 6vw;"><b>Exquisite Catering Services</b></h2>
 </div>
   <div class="container bg-dark text-white mt-0 pb-1">
     <ul class="li pl-5">
